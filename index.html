@@ -7,14 +7,14 @@
 <meta name="description" content="Простой сайт про котов: интересные факты, породы и советы по уходу.">
 <style>
   :root {
-    --bg: #fff7ef;
+    --bg: #fff0f5;
     --card: #ffffff;
-    --ink: #33251e;
-    --muted: #7d6a5f;
-    --accent: #e8632a;
-    --accent-soft: #ffe6d5;
-    --line: #f0e0d2;
-    --shadow: 0 10px 30px rgba(120, 70, 40, .10);
+    --ink: #3b2430;
+    --muted: #8a6a7a;
+    --accent: #e84a8a;
+    --accent-soft: #ffd9e6;
+    --line: #f6dbe6;
+    --shadow: 0 10px 30px rgba(180, 70, 110, .10);
   }
 
   * { box-sizing: border-box; }
@@ -24,8 +24,8 @@
   body {
     margin: 0;
     background:
-      radial-gradient(900px 500px at 85% -10%, #ffe9d8 0%, transparent 60%),
-      radial-gradient(700px 400px at -10% 20%, #fff0e0 0%, transparent 55%),
+      radial-gradient(900px 500px at 85% -10%, #ffe3ef 0%, transparent 60%),
+      radial-gradient(700px 400px at -10% 20%, #ffeaf3 0%, transparent 55%),
       var(--bg);
     color: var(--ink);
     font: 16px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -40,7 +40,7 @@
     top: 0;
     z-index: 10;
     backdrop-filter: blur(10px);
-    background: rgba(255, 247, 239, .82);
+    background: rgba(255, 240, 245, .85);
     border-bottom: 1px solid var(--line);
   }
   .bar {
@@ -87,7 +87,7 @@
     padding: 6px 14px;
     border-radius: 999px;
     background: var(--accent-soft);
-    color: #b3461a;
+    color: #b0356a;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: .04em;
@@ -119,15 +119,15 @@
   .btn.primary {
     background: var(--accent);
     color: #fff;
-    box-shadow: 0 10px 24px rgba(232, 99, 42, .28);
+    box-shadow: 0 10px 24px rgba(232, 74, 138, .28);
   }
-  .btn.primary:hover { background: #d6551f; }
+  .btn.primary:hover { background: #d63a79; }
   .btn.ghost {
     background: #fff;
     border-color: var(--line);
     color: var(--ink);
   }
-  .btn.ghost:hover { background: #fff3e8; }
+  .btn.ghost:hover { background: #fff0f6; }
 
   .hero-art { display: grid; place-items: center; }
   .hero-art svg {
@@ -165,7 +165,7 @@
     box-shadow: var(--shadow);
     transition: transform .2s ease, box-shadow .2s ease;
   }
-  .card:hover { transform: translateY(-4px); box-shadow: 0 16px 36px rgba(120, 70, 40, .14); }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 16px 36px rgba(180, 70, 110, .14); }
   .card .icon {
     display: grid;
     place-items: center;
@@ -187,11 +187,11 @@
     margin-top: 22px;
     padding: 20px 22px;
     border-radius: 18px;
-    background: linear-gradient(120deg, #fff0e2, #ffe3cd);
-    border: 1px solid #f6d4b9;
+    background: linear-gradient(120deg, #ffe4ef, #ffd0e2);
+    border: 1px solid #f7c3d8;
   }
   .fact-box .paw { font-size: 30px; line-height: 1; }
-  #factText { margin: 0; font-size: 16px; color: #6b4a37; transition: opacity .25s ease; }
+  #factText { margin: 0; font-size: 16px; color: #7a4058; transition: opacity .25s ease; }
   #factText.fade { opacity: 0; }
 
   /* breeds */
@@ -201,8 +201,8 @@
     margin-top: 12px;
     padding: 4px 10px;
     border-radius: 999px;
-    background: #f7f2ec;
-    color: #8a7365;
+    background: #fbeef3;
+    color: #96707f;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: .04em;
@@ -270,7 +270,7 @@
   <div class="wrap bar">
     <a class="logo" href="#top" aria-label="Мир котов — на главную">
       <svg viewBox="0 0 32 32" aria-hidden="true">
-        <path fill="#e8632a" d="M6 14 4 4l8 4a12 12 0 0 1 8 0l8-4-2 10a11 11 0 1 1-20 0z"/>
+        <path fill="#e84a8a" d="M6 14 4 4l8 4a12 12 0 0 1 8 0l8-4-2 10a11 11 0 1 1-20 0z"/>
         <circle cx="12" cy="17" r="2" fill="#fff"/>
         <circle cx="20" cy="17" r="2" fill="#fff"/>
         <path d="M14.5 21.5 16 23l1.5-1.5" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
